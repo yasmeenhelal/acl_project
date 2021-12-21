@@ -10,7 +10,7 @@ import Create from "./components/create";
 // import Search from "./components/search";
 import RecordList from "./components/recordList";
 import SearchResult from "./components/searchRecord2";
-
+import UserSearch from "./components/usersearch";
 
 const App = () => {
   return (
@@ -29,6 +29,12 @@ const App = () => {
       <Route path="/searchrecord">
         <SearchResult />
       </Route>
+
+      <Route path="/usersearch">
+        <UserSearch/>
+      </Route>
+
+      
     </div>
   );
 };

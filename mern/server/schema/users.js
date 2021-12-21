@@ -20,6 +20,7 @@ Password: {
 })
 
 const usercons = new mongoose.model("users",userSchema);
+
 module.exports = usercons;
 
 var u1 = [{

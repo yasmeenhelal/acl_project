@@ -13,7 +13,7 @@ module.exports = {
     client.connect(function (err, db) {
       if (db)
       {
-        _db = db.db("AirlineReservation");
+        _db = db.db();
         console.log("Successfully connected to MongoDB!"); 
       }
       return callback(err);

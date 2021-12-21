@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
-          Admin
+          Hello, 
         </NavLink>
         <button
           className="navbar-toggler"
@@ -30,7 +30,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/searchrecord">
-                Admin Search
+                Me
               </NavLink>
             </li>
           </ul>
@@ -39,8 +39,8 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/usersearch">
-                User Search
+              <NavLink className="nav-link" to="/searchrecord">
+                Search Flights
               </NavLink>
             </li>
           </ul>
@@ -50,11 +50,32 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/create">
-                Create New Flight
+                Available Flights
               </NavLink>
             </li>
           </ul>
         </div>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/create">
+                My Flights
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/create">
+                Itinerary
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+
       </nav>
     </div>
   );
