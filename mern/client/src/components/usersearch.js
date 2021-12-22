@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // This will require to npm install axios
 import axios from 'axios';
 import CountryTable from './CountryTable';
-import { SearchBar2 } from "./SearchBar2";
+import SearchBar2 from "./SearchBar2";
 
 export default class usersearch extends Component {
   
